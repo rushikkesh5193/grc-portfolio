@@ -1,0 +1,94 @@
+Control ID,Theme,Control Title,Applicability Decision,Justification / Implementation Reference
+A.5.1,Organizational,Policies for information security,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.2,Organizational,Information security roles and responsibilities,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.3,Organizational,Segregation of duties,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.4,Organizational,Management responsibilities,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.5,Organizational,Contact with authorities,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.6,Organizational,Contact with special interest groups,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.7,Organizational,Threat intelligence,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.8,Organizational,Information security in project management,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.9,Organizational,Inventory of information and other associated assets,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.10,Organizational,Acceptable use of information and other associated assets,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.11,Organizational,Return of assets,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.12,Organizational,Classification of information,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.13,Organizational,Labelling of information,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.14,Organizational,Information transfer,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.15,Organizational,Access control,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.16,Organizational,Identity management,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.17,Organizational,Authentication information,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.18,Organizational,Access rights,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.19,Organizational,Information security in supplier relationships,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.20,Organizational,Addressing information security within supplier agreements,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.21,Organizational,Managing information security in the ICT supply chain,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.22,Organizational,"Monitoring, review and change management of supplier services",Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.23,Organizational,Information security for use of cloud services,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.24,Organizational,Information security incident management planning and preparation,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.25,Organizational,Assessment and decision on information security events,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.26,Organizational,Response to information security incidents,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.27,Organizational,Learning from information security incidents,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.28,Organizational,Collection of evidence,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.29,Organizational,Information security during disruption,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.30,Organizational,ICT readiness for business continuity,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.31,Organizational,"Legal, statutory, regulatory and contractual requirements",Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.32,Organizational,Intellectual property rights,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.33,Organizational,Protection of records,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.34,Organizational,Privacy and protection of PII,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.35,Organizational,Independent review of information security,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.36,Organizational,"Compliance with policies, rules and standards for information security",Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.5.37,Organizational,Documented operating procedures,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.1,People,Screening,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.2,People,Terms and conditions of employment,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.3,People,"Information security awareness, education and training",Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.4,People,Disciplinary process,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.5,People,Responsibilities after termination or change of employment,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.6,People,Confidentiality or non-disclosure agreements,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.7,People,Remote working,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.6.8,People,Information security event reporting,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.7.1,Physical,Physical security perimeters,Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.7.2,Physical,Physical entry,Applicable,"Applies to ExampleOrg Bengaluru office; currently informal sign-in process, gap identified (see Risk R-015)"
+A.7.3,Physical,"Securing offices, rooms and facilities",Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.7.4,Physical,Physical security monitoring,Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.7.5,Physical,Protecting against physical and environmental threats,Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.7.6,Physical,Working in secure areas,Applicable,"Applies to server room/network closet access at Bengaluru office, if any exists for local networking equipment"
+A.7.7,Physical,Clear desk and clear screen,Applicable,Applies to all employee workstations handling customer PII; enforced via Acceptable Use Policy
+A.7.8,Physical,Equipment siting and protection,Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.7.9,Physical,Security of assets off-premises,Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.7.10,Physical,Storage media,Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.7.11,Physical,Supporting utilities,Not Applicable,Not Applicable - No ExampleOrg-operated server rooms/utilities; all compute is cloud-hosted on AWS
+A.7.12,Physical,Cabling security,Not Applicable,Not Applicable - No ExampleOrg-owned network cabling infrastructure; cloud-hosted environment
+A.7.13,Physical,Equipment maintenance,Not Applicable,Not Applicable - No physical server hardware owned by ExampleOrg requiring maintenance
+A.7.14,Physical,Secure disposal or re-use of equipment,Applicable (Inherited),Inherited from AWS Shared Responsibility Model; reviewed annually via AWS SOC 2 Type II report rather than independently audited
+A.8.1,Technological,User endpoint devices,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.2,Technological,Privileged access rights,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.3,Technological,Information access restriction,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.4,Technological,Access to source code,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.5,Technological,Secure authentication,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.6,Technological,Capacity management,Not Applicable,Not Applicable - Capacity is elastically auto-scaled by AWS; no fixed-capacity planning process required
+A.8.7,Technological,Protection against malware,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.8,Technological,Management of technical vulnerabilities,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.9,Technological,Configuration management,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.10,Technological,Information deletion,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.11,Technological,Data masking,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.12,Technological,Data leakage prevention,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.13,Technological,Information backup,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.14,Technological,Redundancy of information processing facilities,Not Applicable,"Not Applicable - Redundancy handled via AWS multi-AZ architecture, not separately engineered by ExampleOrg"
+A.8.15,Technological,Logging,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.16,Technological,Monitoring activities,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.17,Technological,Clock synchronization,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.18,Technological,Use of privileged utility programs,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.19,Technological,Installation of software on operational systems,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.20,Technological,Networks security,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.21,Technological,Security of network services,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.22,Technological,Segregation of networks,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.23,Technological,Web filtering,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.24,Technological,Use of cryptography,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.25,Technological,Secure development life cycle,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.26,Technological,Application security requirements,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.27,Technological,Secure system architecture and engineering principles,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.28,Technological,Secure coding,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.29,Technological,Security testing in development and acceptance,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.30,Technological,Outsourced development,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.31,Technological,"Separation of development, test and production environments",Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.32,Technological,Change management,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.33,Technological,Test information,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
+A.8.34,Technological,Protection of information systems during audit testing,Applicable,Directly applicable to ExampleOrg's cloud-hosted fintech operations; control implemented or in remediation per risk register
