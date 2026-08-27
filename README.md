@@ -1,45 +1,37 @@
-# Project 2: DPDP Act 2023 Compliance Gap Assessment
+# Project 3: Third-Party Risk Management (TPRM) Program
 
 ## Objective
-Assess ExampleOrg Pvt Ltd's current data handling practices against the
-requirements of India's Digital Personal Data Protection Act, 2023 (DPDP Act) and identify
-a prioritized remediation roadmap ahead of the Act's rules coming into full force.
+Design and demonstrate a functioning vendor/third-party risk management program for
+ExampleOrg Pvt Ltd, covering vendor tiering, risk assessment
+questionnaire design, scoring, and an example completed assessment.
 
 ## Why this matters
-The DPDP Act is India's first comprehensive personal data protection law. As of the current
-compliance timeline, most Indian companies — especially fintechs handling sensitive financial
-and KYC data — are still building out their compliance posture. This assessment simulates the
-kind of gap analysis a GRC analyst would be asked to produce as this law is operationalized.
+ExampleOrg's data flows through several third parties — a cloud provider, a payment gateway,
+a KYC verification vendor, and SaaS tools handling customer and employee data. Vendor risk
+is consistently one of the most commonly tested areas in GRC interviews and one of the most
+underbuilt programs at growing companies, making it a high-signal project for a portfolio.
 
 ## Scope of work
-1. **Data Processing Inventory** — records what personal data ExampleOrg collects, why, and
-   the legal basis for processing
-2. **Gap Assessment Methodology** — the framework used to score compliance maturity
-3. **Compliance Gap Tracker** — 20 requirement areas assessed against current state, with
-   remediation owner and target date
-4. **Executive Summary** — leadership-ready summary of findings and risk exposure
+1. **Vendor Tiering Methodology** — how vendors are classified by risk exposure
+2. **Vendor Risk Questionnaire** — the actual assessment sent to vendors
+3. **Scoring Rubric** — how questionnaire responses convert to a risk tier/score
+4. **Sample Completed Assessment** — a full worked example for ExampleOrg's KYC vendor
+5. **Vendor Risk Register** — tracks all 12 vendors, their tier, and review status
 
-## Key findings (executive summary preview — full version in executive-summary.md)
-- **7 of 20 requirement areas assessed as Non-Compliant**, concentrated in consent
-  management granularity, Data Principal rights fulfillment (no formal process to handle
-  access/erasure/nomination requests), grievance redressal, breach notification readiness,
-  and Significant Data Fiduciary obligations (no DPO appointed, no SDF threshold assessment done)
-- **11 areas Partially Compliant** — mostly requiring formalization of practices that exist
-  informally today (notice design, vendor DPAs, DPIA process, cookie consent granularity)
-- **1 area already fully Compliant** (RoPA/data processing inventory, built as part of this
-  exercise) and **1 Not Applicable** (children's data — product requires 18+ KYC-verified customers)
-- Highest-priority gap: **no Consent Manager / consent capture mechanism** distinguishing
-  purpose-specific consent, required for lawful processing of customer data under Section 6
+## Key findings (from the sample assessment + register)
+- Of ExampleOrg's 12 active vendors, **3 are Tier 1 (Critical)**: the KYC verification
+  vendor, the payment gateway processor, and AWS
+- The KYC vendor (sample assessment) scored **Medium-High risk** — strong technical
+  controls but **no evidence of an independent security certification** (no SOC 2 or
+  ISO 27001), which is a material gap for a vendor handling identity documents
+- **2 of 12 vendors have never had a formal risk assessment conducted**, both onboarded
+  before the TPRM program existed — flagged for retrospective assessment
 
 ## Files in this folder
 | File | Purpose |
 |---|---|
-| `data-processing-inventory.csv` | Record of Processing Activities (RoPA)-style inventory |
-| `gap-assessment-methodology.md` | Scoring criteria used |
-| `compliance-gap-tracker.csv` | 20 requirement areas scored and tracked to remediation |
-| `executive-summary.md` | Leadership summary with risk framing |
-
-## Disclaimer
-This is a training/portfolio artifact built against a fictional company for skills
-demonstration. It reflects a reasonable professional interpretation of the DPDP Act 2023
-and draft Rules as understood at the time of writing, and is not legal advice.
+| `vendor-tiering-methodology.md` | How vendors are classified into risk tiers |
+| `vendor-risk-questionnaire.md` | The standard vendor security questionnaire |
+| `vendor-risk-scoring-rubric.md` | How responses are scored |
+| `sample-vendor-assessment.md` | Worked example — KYC verification vendor |
+| `vendor-risk-register.csv` | All 12 vendors tracked by tier and assessment status |
