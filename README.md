@@ -1,68 +1,45 @@
-# GRC Portfolio — ExampleOrg Pvt Ltd
+# Project 2: DPDP Act 2023 Compliance Gap Assessment
 
-This repository contains three end-to-end GRC work products built against a single fictional
-organization, **ExampleOrg Pvt Ltd**, to demonstrate applied GRC capability
-across information security management, Indian data protection compliance, and third-party risk.
+## Objective
+Assess ExampleOrg Pvt Ltd's current data handling practices against the
+requirements of India's Digital Personal Data Protection Act, 2023 (DPDP Act) and identify
+a prioritized remediation roadmap ahead of the Act's rules coming into full force.
 
-## Why one fictional company across all three projects
-Real GRC work never happens in isolation — an ISMS risk register, a DPDP gap assessment, and a
-vendor risk program for the same organization all reference the same assets, the same data flows,
-and the same risk appetite. Using one consistent company profile across all three projects
-demonstrates how these programs interlock in practice, the way they would inside a real
-GRC function.
+## Why this matters
+The DPDP Act is India's first comprehensive personal data protection law. As of the current
+compliance timeline, most Indian companies — especially fintechs handling sensitive financial
+and KYC data — are still building out their compliance posture. This assessment simulates the
+kind of gap analysis a GRC analyst would be asked to produce as this law is operationalized.
 
-## Company Profile (fictional, used across all projects)
-| Attribute | Detail |
+## Scope of work
+1. **Data Processing Inventory** — records what personal data ExampleOrg collects, why, and
+   the legal basis for processing
+2. **Gap Assessment Methodology** — the framework used to score compliance maturity
+3. **Compliance Gap Tracker** — 20 requirement areas assessed against current state, with
+   remediation owner and target date
+4. **Executive Summary** — leadership-ready summary of findings and risk exposure
+
+## Key findings (executive summary preview — full version in executive-summary.md)
+- **7 of 20 requirement areas assessed as Non-Compliant**, concentrated in consent
+  management granularity, Data Principal rights fulfillment (no formal process to handle
+  access/erasure/nomination requests), grievance redressal, breach notification readiness,
+  and Significant Data Fiduciary obligations (no DPO appointed, no SDF threshold assessment done)
+- **11 areas Partially Compliant** — mostly requiring formalization of practices that exist
+  informally today (notice design, vendor DPAs, DPIA process, cookie consent granularity)
+- **1 area already fully Compliant** (RoPA/data processing inventory, built as part of this
+  exercise) and **1 Not Applicable** (children's data — product requires 18+ KYC-verified customers)
+- Highest-priority gap: **no Consent Manager / consent capture mechanism** distinguishing
+  purpose-specific consent, required for lawful processing of customer data under Section 6
+
+## Files in this folder
+| File | Purpose |
 |---|---|
-| Name | ExampleOrg Pvt Ltd |
-| Sector | Fintech — digital lending & payments aggregation |
-| HQ | Bengaluru, India, with a remote engineering team |
-| Size | ~220 employees |
-| Regulatory exposure | RBI (NBFC-adjacent lending guidelines), DPDP Act 2023, PCI DSS (card data via payment aggregator model) |
-| Core systems | AWS-hosted microservices platform, Salesforce CRM, a payments gateway integration, HR system (Darwinbox), 12 active third-party vendors |
-| Data handled | Customer PII, KYC documents, bank account details, transaction history |
+| `data-processing-inventory.csv` | Record of Processing Activities (RoPA)-style inventory |
+| `gap-assessment-methodology.md` | Scoring criteria used |
+| `compliance-gap-tracker.csv` | 20 requirement areas scored and tracked to remediation |
+| `executive-summary.md` | Leadership summary with risk framing |
 
-## Repository Structure
-
-```
-grc-portfolio/
-├── 01-iso27001-isms/              # Full ISO 27001:2022 ISMS implementation kit
-│   ├── README.md
-│   ├── scope-statement.md
-│   ├── risk-assessment-methodology.md
-│   ├── risk-register.csv
-│   ├── statement-of-applicability.csv
-│   └── policies/                  # 5 core ISMS policies
-│
-├── 02-dpdp-act-gap-assessment/    # DPDP Act 2023 compliance gap assessment
-│   ├── README.md
-│   ├── gap-assessment-methodology.md
-│   ├── data-processing-inventory.csv
-│   ├── compliance-gap-tracker.csv
-│   └── executive-summary.md
-│
-└── 03-vendor-risk-management/     # Third-Party Risk Management (TPRM) program
-    ├── README.md
-    ├── vendor-tiering-methodology.md
-    ├── vendor-risk-questionnaire.md
-    ├── vendor-risk-scoring-rubric.md
-    ├── sample-vendor-assessment.md
-    └── vendor-risk-register.csv
-```
-
-## How to read this repository
-Each project folder has its own README explaining the objective, methodology, and key findings —
-read that first, then the supporting artifacts. The CSV registers open cleanly in Excel/Google
-Sheets and are also viewable directly on GitHub.
-
-## Frameworks referenced
-ISO/IEC 27001:2022 (Annex A controls), NIST CSF 2.0 (cross-referenced in the ISMS risk methodology),
-DPDP Act 2023 & draft DPDP Rules, RBI IT Governance & digital lending guidelines, PCI DSS v4.0
-(vendor tiering context).
-
-## About this portfolio
-Built to demonstrate applied GRC skills: risk assessment methodology design, control mapping,
-policy authorship, regulatory gap analysis, and third-party risk program design — the day-to-day
-output of a GRC analyst/associate role.
-
-
+## Disclaimer
+This is a training/portfolio artifact built against a fictional company for skills
+demonstration. It reflects a reasonable professional interpretation of the DPDP Act 2023
+and draft Rules as understood at the time of writing, and is not legal advice.
